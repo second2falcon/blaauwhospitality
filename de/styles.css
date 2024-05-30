@@ -19,12 +19,19 @@ nav {
     background-color: #005b96;
     text-align: center;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .nav-sections,
+nav .nav-languages {
+    display: flex;
+    gap: 10px;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
     font-size: 18px;
 }
 
