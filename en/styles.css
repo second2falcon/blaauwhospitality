@@ -54,6 +54,11 @@ section#contact p a:hover {
     text-decoration: underline;
 }
 
+/* Adjust the padding or margin of the customers section to create space */
+#customers {
+    padding-bottom: 100px; /* Adjust as needed */
+}
+
 /* Footer Styles */
 footer {
     background-color: #003366;
@@ -64,3 +69,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
